@@ -8,9 +8,9 @@ Each directory is self-contained.
 
 ### Java Concepts
 
-- [Cloneable](cloneable/README.md)
+- [Cloneable](cloneable)
 
 ### Object Oriented Programming (OOP)
 
-- [Static Factory](static_factory/README.md)
-- [Null Object](null_object/README.md)
+- [Static Factory](static_factory)
+- [Null Object](null_object)
