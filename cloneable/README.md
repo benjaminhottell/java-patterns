@@ -2,9 +2,15 @@
 
 The `Cloneable` interface allows you to signal that your class supports the `clone` method.
 
-All objects have a `clone` method, though not all objects provide a supporting implementation for it. The default implementation is to throw `CloneNotSupportedException`.
+All objects have a `clone` method, though not all objects provide a supporting implementation for it. The default implementation is protected, so you cannot call it. (Or, if it isn't protected, it will most likely throw `CloneNotSupportedException`)
 
-By default, your class will throw `CloneNotSupportedException`. Implementing `Cloneable`.
+Implementing `Cloneable` signals that your class...
+
+1. Implements a `clone()` method
+2. Made the `clone()` method `public`
+3. Does not throw `CloneNotSupportedException` when the `clone()` method is called
+
+Technically, you don't need to implement `Cloneable` if you've met the above criteria. And, you can implement the `Cloneable` interface without satisfying the above criteria. The interface is intended more like a marker or a 'promise' that you've satisfied the above criteria.
 
 
 ## Deep copy vs shallow copy
