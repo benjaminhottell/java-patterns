@@ -10,7 +10,12 @@ Each directory is self-contained.
 
 - [Cloneable](cloneable)
 
-### Object Oriented Programming (OOP)
+### Static Patterns
 
 - [Static Factory](static_factory)
+- [Static Utility Class](static_utility_class)
+
+### Object Oriented Programming (OOP) Patterns
+
 - [Null Object](null_object)
+
