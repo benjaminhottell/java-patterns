@@ -18,4 +18,5 @@ Each directory is self-contained.
 ### Object Oriented Programming (OOP) Patterns
 
 - [Null Object](null_object)
+- [Singleton](singleton)
 
