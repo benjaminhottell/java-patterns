@@ -9,6 +9,8 @@ Each directory is self-contained.
 ### Java Concepts
 
 - [Cloneable](cloneable)
+- [Comparable](comparable)
+- [Comparator](comparator)
 
 ### Static Patterns
 

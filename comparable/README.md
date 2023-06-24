@@ -9,8 +9,8 @@ public class Xyz implements Comparable<Xyz> {
 
     /* ... */
 
-	@Override
-	public int compareTo(Xyz o) {
+    @Override
+    public int compareTo(Xyz o) {
         /* ... */
     }
 }
@@ -37,3 +37,6 @@ If you answered 'no' to any of the above questions, you may not want to implemen
 
 If you answered 'yes' to all of the above questions, then you should implement `Comparable` and write the `compareTo` method to express that 'less/greater than' or 'earlier/later than' or 'equal/equivalent to' relationship.
 
+## See also
+
+- [Comparator](../comparator)

@@ -1,5 +1,7 @@
 # Comparator
 
+(Prerequisite: [Comparable](../comparable))
+
 You can implement the `Comparator` interface to define a new way to compare two objects of type `T` (where `T` is any `Object`).
 
 The `Comparator<T>` interface has one method that you need to override: `int compare(T o1, T o2)`
