@@ -21,4 +21,4 @@ Each directory is self-contained.
 
 - [Null Object](null_object)
 - [Singleton](singleton)
-
+- [Builder](builder)
